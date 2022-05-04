@@ -37,7 +37,7 @@ const TableSection = React.memo(({ query, isOpen }) => {
 
   if (error)
     return (
-      <h1>
+      <h1 style={{textAlign: "center", marginTop: "4rem", fontFamily: "Gilroy-ExtraBold"}}>
         Something Went Wrong{" "}
         <span role="img" aria-label="sad face">
           😔
