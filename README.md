@@ -34,5 +34,5 @@ It is deployed locally through **Nodejs**
 - select * from suppliers
 - select * from territories
 
-#Screenshots
+# Screenshots
 ![atlan1](https://user-images.githubusercontent.com/53695605/166676945-62383771-53eb-4ddb-948a-574f4bd90fa1.png)
