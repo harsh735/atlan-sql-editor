@@ -52,3 +52,6 @@ I calculated the page load time through the help of Chrome devtools - Lighthouse
 
 
 To optimize the page load time I took the suggestions provided by Lighthouse and worked upon resolving them. Apart from that I've divided the page into several components and used React.memo() in order to improve the rendering of the page
+
+
+Finally the react app was hosted on Vercel which helped in compressing the js bundles and further improve the page load time
