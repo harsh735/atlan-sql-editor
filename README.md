@@ -42,6 +42,11 @@ It is deployed locally through **Nodejs**
 # Page Load Time
 
 I calculated the page load time through the help of Chrome devtools - Lighthouse through which I was able to obtain the following results: 
+
+
+
+
+
 ![image](https://user-images.githubusercontent.com/53695605/166706980-2d24ee17-9dbe-4208-a5c4-167f43a9ebde.png)
 ![image](https://user-images.githubusercontent.com/53695605/166707046-95d9a039-b19e-4c72-8133-f6450e96bf12.png)
 
