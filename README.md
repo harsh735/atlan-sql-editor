@@ -35,8 +35,15 @@ It is deployed locally through **Nodejs**
 - select * from territories
 
 # Screenshots
-![atlan1](https://user-images.githubusercontent.com/53695605/166676945-62383771-53eb-4ddb-948a-574f4bd90fa1.png)
-![image](https://user-images.githubusercontent.com/53695605/166677401-b4a83e09-4fb6-4722-b640-02d964f025a3.png)
-![image](https://user-images.githubusercontent.com/53695605/166677529-64818109-907c-4566-aa01-c61594697979.png)
-![image](https://user-images.githubusercontent.com/53695605/166677662-cbae74e1-bd19-437f-b7c0-844d6a565110.png)
+![image](https://user-images.githubusercontent.com/53695605/166706181-79210e50-6521-4db1-8a8e-1ed793ac7b65.png)
+![image](https://user-images.githubusercontent.com/53695605/166706326-9ecbb269-e693-440b-9c51-ee43956d7874.png)
 
+
+# Page Load Time
+
+I calculated the page load time through the help of Chrome devtools - Lighthouse through which I was able to obtain the following results: 
+![image](https://user-images.githubusercontent.com/53695605/166706980-2d24ee17-9dbe-4208-a5c4-167f43a9ebde.png)
+![image](https://user-images.githubusercontent.com/53695605/166707046-95d9a039-b19e-4c72-8133-f6450e96bf12.png)
+
+
+To optimize the page load time I took the suggestions provided by Lighthouse and worked upon resolving them. Apart from that I've divided the page into several components and used React.memo() in order to improve the rendering of the page
