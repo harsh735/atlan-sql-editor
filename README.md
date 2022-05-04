@@ -37,4 +37,5 @@ It is deployed locally through **Nodejs**
 # Screenshots
 ![atlan1](https://user-images.githubusercontent.com/53695605/166676945-62383771-53eb-4ddb-948a-574f4bd90fa1.png)
 ![image](https://user-images.githubusercontent.com/53695605/166677401-b4a83e09-4fb6-4722-b640-02d964f025a3.png)
+![image](https://user-images.githubusercontent.com/53695605/166677529-64818109-907c-4566-aa01-c61594697979.png)
 
