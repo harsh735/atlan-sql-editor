@@ -1,70 +1,42 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Atlan Frontend Assignment - SQL Editor in Reactjs
 
-## Available Scripts
+A SQL editor made in Reactjs where users can query easily on a table using SQL, and see the results.
+## Tech Stack
 
-In the project directory, you can run:
+The project is built on **Reactjs** with use of libraries such as **Material UI**, React Ace, ALASql, React Toaster etc.
+It is deployed locally through **Nodejs**
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Demo
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- https://atlan-sql-editor-ten.vercel.app/
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+# Features
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Users can get data of any of the predefined SQL queries either by using SQL Editor or Sidebar Menu.
+- Users can sort data directly by clicking the Table Headers title.
+- Users can navigate to different pages using pagination.
+- Users can download the data in CSV and PDF Format by clicking the export option.
+- Users can see query runtime in milliseconds(ms).
+## Predefined SQL queries
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- select * from customers
+- select * from categories
+- select * from employee_territories
+- select * from order_details
+- select * from orders
+- select * from products
+- select * from regions
+- select * from shippers
+- select * from suppliers
+- select * from territories
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Screenshots
+![atlan1](https://user-images.githubusercontent.com/53695605/166676945-62383771-53eb-4ddb-948a-574f4bd90fa1.png)
+![image](https://user-images.githubusercontent.com/53695605/166677401-b4a83e09-4fb6-4722-b640-02d964f025a3.png)
+![image](https://user-images.githubusercontent.com/53695605/166677529-64818109-907c-4566-aa01-c61594697979.png)
+![image](https://user-images.githubusercontent.com/53695605/166677662-cbae74e1-bd19-437f-b7c0-844d6a565110.png)
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
