@@ -15,11 +15,15 @@ export default function Footer() {
             py={{ xs: 5, sm: 10 }}
             color="white"
             height="5rem"
-            style={{ marginTop: "25rem" }}
+            style={{ marginTop: "40rem" }}
         >
             <Container maxWidth="sm">
-                <Box style={{ textAlign: "center", fontSize: "1.5rem" }} pt={{ xs: 0, sm: 0 }} pb={{ xs: 0, sm: 9 }} my={{ sm: -6 }} >
-                    Made by: Harshendra Singh
+                <Box className="footer-name" style={{ textAlign: "center", fontSize: "1rem" }} pt={{ xs: 0, sm: 0 }} pb={{ xs: 0, sm: 6 }} my={{ sm: -6 }} >
+                    Made by
+                </Box>
+
+                <Box className="footer-name" style={{ textAlign: "center", fontSize: "1.9rem" }} pb={{xs: 2, sm: 6}} >
+                    Harshendra Singh
                 </Box>
                 <Grid container spacing={5}>
                     <Grid flex={{ sm: 5 }} item style={{ textAlign: "center" }}>

@@ -2,7 +2,6 @@ const TABLE_NAMES = [
     "categories",
     "customers",
     "employee_territories",
-    "employees",
     "order_details",
     "orders",
     "products",

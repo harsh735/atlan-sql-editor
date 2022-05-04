@@ -13,18 +13,20 @@ import PlayCircleOutlineIcon from '@mui/icons-material/PlayCircleOutline';
 
 
 const Item = styled(Paper)(({ theme }) => ({
-    backgroundColor: theme.palette.mode === 'light' ? '#2014ac' : '#318486',
+    backgroundColor: theme.palette.mode === 'light' ? '#2026d2' : '#32awq2',
     ...theme.typography.body2,
     padding: theme.spacing(1),
     textAlign: 'center',
-    color: theme.palette.text.secondary,
 }));
 
 
 const ColorButton = styled(Button)(({ theme }) => ({
-    backgroundColor: "#e01648",
+    backgroundColor: "white",
+    color: "#007ef5",
+
     '&:hover': {
-      backgroundColor: "#ba0b37",
+      backgroundColor: "#f34c76",
+      color: "white"
     },
   }));
   

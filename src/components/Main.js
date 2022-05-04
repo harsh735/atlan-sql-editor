@@ -20,7 +20,7 @@ export default function Main() {
             value={value}
             setValue={setValue}
             isOpen={isOpen} />
-          {query ? <Table query={query} isOpen={isOpen} /> : null}
+            {query ? <Table query={query} isOpen={isOpen} /> : null}
         <Footer />
       </div>
     );

@@ -49,8 +49,7 @@ const DrawerHeader = styled('div')(({ theme }) => ({
 const themes = createTheme({
     palette: {
         neutral: {
-            main: '#2014ac',
-            contrastText: '#fff',
+            main: 'white',
         },
     }
 });
@@ -70,12 +69,12 @@ export default function Top({ setQuery, value, setValue, isOpen }) {
         setValue(`select * from ${queryName}`);
     };
     return (
-        <Box sx={{ flexGrow: 1 }} style={{ marginBottom: "8rem" }}>
+        <Box sx={{ flexGrow: 1 }} style={{ marginBottom: "8rem", background: "#e3e5e8" }}>
             <ThemeProvider theme={themes}>
                 <AppBar color="neutral" position="fixed" open={open}  >
                     <Toolbar>
                         <Typography
-                            style={{ fontFamily: "Gilroy-ExtraBold", marginLeft: "7rem", fontSize: "1.8rem" }}
+                            style={{ fontFamily: "Gilroy-ExtraBold", marginLeft: "7rem", fontSize: "1.8rem", color: '#1e2fd9' }}
                             variant="h6"
                             noWrap
                             component="div"
@@ -83,15 +82,14 @@ export default function Top({ setQuery, value, setValue, isOpen }) {
                         >
                             AtlanSQL
                         </Typography>
-                        <IconButton
-                            color="inherit"
-                            aria-label="open drawer"
-                            edge="end"
-                            onClick={handleDrawerOpen}
-                            sx={{ ...(open && { display: 'none' }) }}
-                        >
-                            <MenuIcon style={{marginRight: "5.7rem", fontSize: "2.2rem"}}/>
-                        </IconButton>
+                        
+                            <MenuIcon 
+                                cursor="pointer"
+                                onClick={handleDrawerOpen}
+                                sx={{ ...(open && { display: 'none' }) }}
+                                style={{marginRight: "5.7rem", fontSize: "2.2rem", color: "#1e2fd9"}} 
+
+                            />
                     </Toolbar>
 
                 </AppBar>

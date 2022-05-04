@@ -3,12 +3,13 @@ body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+    background: rgb(227, 228, 230);
 }
 
 
+
 .footer-main {
-    background: rgb(0, 0, 0);
-    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(5, 30, 101, 1) 100%);
+    background: #051399;
     font-family: 'Poppins';
     font-weight: 600;
 }

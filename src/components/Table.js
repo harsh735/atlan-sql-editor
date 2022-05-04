@@ -53,16 +53,17 @@ const TableSection = React.memo(({ query, isOpen }) => {
             Results fetched in:{" "}
             <span>{`${runtime.toFixed(2)} ms`}</span>
           </p>
-          <div style={{ height: "70vh", marginTop: "1.8rem", textAlign: "center" }}>
+          <div style={{ height: "85vh", marginTop: "1.8rem", textAlign: "center" }}>
             
 
             <DataGrid
               disableSelectionOnClick
               columns={columnData(columns)}
-              pageSize={10}
+              pageSize={12}
               rows={rowData(query, queryData)}
               getRowId={(row) => row[getTableId(query)]}
               sx={{
+                background: "white",
                 mx: 15,
                 boxShadow: 10,
                 border: 11,
