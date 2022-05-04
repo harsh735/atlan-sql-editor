@@ -59,7 +59,7 @@ const TableSection = React.memo(({ query, isOpen }) => {
             <DataGrid
               disableSelectionOnClick
               columns={columnData(columns)}
-              pageSize={12}
+              pageSize={10}
               rows={rowData(query, queryData)}
               getRowId={(row) => row[getTableId(query)]}
               sx={{
